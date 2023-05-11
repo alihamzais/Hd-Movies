@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  height: 12vh;
+  background-color: #343a40;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flex_movie_logo {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  color: #565c67;
+}
+
+#movie_logo {
+  font-size: 60px;
+  color: rgb(5, 5, 145);
+  cursor: pointer;
+}
+.Screen_page {
+  display: flex;
+  color: white;
+}
+.Router_page {
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#search_bar {
+  outline: none;
+  border: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.input_icon {
+  border: none;
+  outline: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 0px;
+}
+#flex_input {
+  display: flex;
+}
+#user {
+  font-size: 16px;
+  color: #565c67;
+}
+#user > span {
+  font-size: 20px;
+  margin-left: 5px;
+}
+#user_icon {
+  cursor: pointer;
+}
