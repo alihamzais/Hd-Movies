@@ -33,7 +33,6 @@ function Navbar() {
         <div className="flex_movie_logo">
           <GrassIcon id="movie_logo" />
           <div>
-            {" "}
             <p style={{ textAlign: "center" }}>HD</p>
             <p>Movies</p>
           </div>
@@ -61,7 +60,7 @@ function Navbar() {
             style={
               backgcolor
                 ? { backgroundColor: "#565c67", color: "white" }
-                : { backgroundColor: "white", color: "black" }
+                : { backgroundColor: "white", color: "black" , border:"1px"}
             }
             placeholder="Basic usage"
             id="search_bar"
@@ -72,9 +71,7 @@ function Navbar() {
           />
         </div>
         <div id="user">
-          {/* <UserOutlined id="user_icon" /> */}
           <Avatar icon={<UserOutlined />} id="user_icon" />
-          {/* <span>Login</span> */}
         </div>
       </nav>
       <Section />
