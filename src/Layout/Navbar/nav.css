@@ -7,6 +7,7 @@ nav {
   background-color: #343a40;
   position: sticky;
   top: 0;
+  z-index: 999;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -36,18 +37,13 @@ nav {
 #search_bar {
   outline: none;
   border: none;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-top-left-radius: none;
+  border-bottom-left-radius: none;
+  height: 30px;
 }
 .input_icon {
-  border: none;
-  outline: none;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 0px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 0px;
+  height: 35px;
+  background-color: white;
 }
 #flex_input {
   display: flex;
@@ -62,4 +58,58 @@ nav {
 }
 #user_icon {
   cursor: pointer;
+}
+#login {
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 40px;
+  color: #343a40;
+}
+#input1 {
+  margin-bottom: 30px;
+  width: 100%;
+  display: block;
+}
+#input2 {
+  width: 100%;
+  margin-bottom: 30px;
+
+  display: block;
+}
+#input3 {
+  width: 100%;
+  margin-bottom: 30px;
+
+  display: block;
+}
+#input1::placeholder {
+  color: #565c67;
+}
+
+#input2::placeholder {
+  color: #565c67;
+}
+#input3::placeholder {
+  color: #565c67;
+}
+
+#login_btn {
+  width: 30%;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: #565c67;
+}
+#not_have_acount {
+  display: block;
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.Login_back_page {
+  background-color: white;
+  width: 40%;
+  /* margin: auto; */
 }

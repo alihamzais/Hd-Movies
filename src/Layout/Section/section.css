@@ -12,10 +12,10 @@ section {
 }
 .flex_movie_logo_section {
   display: flex;
-  font-size: 30px;
+  font-size: 40px;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: gray;
 }
 
 #movie_logo_section {
@@ -32,6 +32,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  display: none;
 }
 #Hd_movies {
   padding: 8px;
@@ -101,5 +102,5 @@ section {
 }
 #Download_heading {
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
 }
